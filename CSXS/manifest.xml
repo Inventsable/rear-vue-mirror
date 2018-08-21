@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- 1) -->
+<ExtensionManifest ExtensionBundleId="com.rear-vue-mirror" ExtensionBundleVersion="1.0.0" Version="7.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ExtensionList>
+    <!-- 2) -->
+    <Extension Id="com.rear-vue-mirror.panel" Version="1.0.0" />
+  </ExtensionList>
+  <ExecutionEnvironment>
+    <HostList>
+      <!-- 3) -->
+      <Host Name="ILST" Version="[18,99.9]" />
+
+    </HostList>
+    <LocaleList>
+      <Locale Code="All" />
+    </LocaleList>
+    <RequiredRuntimeList>
+      <RequiredRuntime Name="CSXS" Version="7.0" />
+    </RequiredRuntimeList>
+  </ExecutionEnvironment>
+  <DispatchInfoList>
+    <!-- 2) -->
+    <Extension Id="com.rear-vue-mirror.panel">
+      <DispatchInfo>
+        <Resources>
+          <MainPath>./index-dev.html</MainPath>
+          <CEFCommandLine>
+            <Parameter>--enable-nodejs</Parameter>
+            <Parameter>--mixed-context</Parameter>
+          </CEFCommandLine>
+        </Resources>
+        <Lifecycle>
+          <AutoVisible>true</AutoVisible>
+        </Lifecycle>
+        <UI>
+          <Type>Panel</Type>
+          <!-- 6) -->
+          <Menu>rear-vue-mirror</Menu>
+          <Geometry>
+            <Size>
+              <Height>160</Height>
+              <Width>140</Width>
+            </Size>
+            <MaxSize>
+              <Height>280</Height>
+              <Width>600</Width>
+            </MaxSize>
+            <MinSize>
+              <Height>280</Height>
+              <Width>70</Width>
+            </MinSize>
+          </Geometry>
+          <Icons />
+        </UI>
+      </DispatchInfo>
+    </Extension>
+  </DispatchInfoList>
+</ExtensionManifest>

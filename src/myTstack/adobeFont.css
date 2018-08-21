@@ -1,0 +1,128 @@
+@font-face {
+  font-family: 'Adobe-Font';
+  src:
+    url('fonts/Adobe-Font.ttf?scw132') format('truetype'),
+    url('fonts/Adobe-Font.woff?scw132') format('woff'),
+    url('fonts/Adobe-Font.svg?scw132#Adobe-Font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="adobe-icon-"], [class*=" adobe-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Adobe-Font' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.adobe-icon-angleDown:before {
+  content: "\e908";
+  color: #c3c3c3;
+}
+.adobe-icon-angleUp:before {
+  content: "\e90b";
+  color: #c3c3c3;
+}
+.adobe-icon-angleUpDown:before {
+  content: "\e915";
+  color: #c3c3c3;
+}
+.adobe-icon-file:before {
+  content: "\e916";
+  color: #c3c3c3;
+}
+.adobe-icon-folder:before {
+  content: "\e917";
+  color: #c3c3c3;
+}
+.adobe-icon-newLayer:before {
+  content: "\e900";
+  color: #c3c3c3;
+}
+.adobe-icon-angleRight:before {
+  content: "\e901";
+  color: #c3c3c3;
+}
+.adobe-icon-assetExport:before {
+  content: "\e902";
+  color: #c3c3c3;
+}
+.adobe-icon-cancel:before {
+  content: "\e903";
+  color: #c3c3c3;
+}
+.adobe-icon-checkBoxOff:before {
+  content: "\e904";
+  color: #999;
+}
+.adobe-icon-checkBoxOn:before {
+  content: "\e905";
+  color: #999;
+}
+.adobe-icon-dissect .path1:before {
+  content: "\e906";
+  color: rgb(195, 195, 195);
+  opacity: 0.5;
+}
+.adobe-icon-dissect .path2:before {
+  content: "\e907";
+  margin-left: -1.0029296875em;
+  color: rgb(195, 195, 195);
+}
+.adobe-icon-fill:before {
+  content: "\e909";
+  color: #c3c3c3;
+}
+.adobe-icon-find:before {
+  content: "\e90a";
+  color: #c3c3c3;
+}
+.adobe-icon-layerRadioOff:before {
+  content: "\e90c";
+  color: #999;
+}
+.adobe-icon-layerRadioOn:before {
+  content: "\e90d";
+  color: #999;
+}
+.adobe-icon-lock:before {
+  content: "\e90e";
+  color: #c3c3c3;
+}
+.adobe-icon-newLayer2:before {
+  content: "\e90f";
+  color: #c3c3c3;
+}
+.adobe-icon-play:before {
+  content: "\e910";
+  color: #c3c3c3;
+}
+.adobe-icon-record:before {
+  content: "\e911";
+  color: #c3c3c3;
+}
+.adobe-icon-stroke:before {
+  content: "\e912";
+  color: #c3c3c3;
+}
+.adobe-icon-trash:before {
+  content: "\e913";
+  color: #c3c3c3;
+}
+.adobe-icon-visible:before {
+  content: "\e914";
+  color: #c3c3c3;
+}
+
+
+[class^="adobe-icon-"]:active, [class*=" adobe-icon-"]:active {
+  /* cursor: pointer; */
+}
