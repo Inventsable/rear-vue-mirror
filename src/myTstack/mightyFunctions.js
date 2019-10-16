@@ -71,11 +71,7 @@ function strReplace(s, ...args){
 }
 
 function inString(haystack, needle){
-  if (haystack.includes(needle)) {
-    return true;
-  } else {
-    return false;
-  }
+  return haystack.includes(needle);
 }
 
 
@@ -98,11 +94,7 @@ function hasClass(elt, ...targets) {
 }
 
 function containsMultiple(haystack, needle){
-  if (haystack.split(needle).length > 2) {
-    return true;
-  } else {
-    return false;
-  }
+  return haystack.split(needle).length > 2;
 }
 
 // function hasFileExtension(str){
@@ -117,11 +109,7 @@ function containsMultiple(haystack, needle){
 
 
 function isBetween(a, b, c) {
-  if ((a > b) && (a < c)) {
-    return true;
-  } else {
-    return false;
-  }
+  return (a > b) && (a < c)
 }
 
 
@@ -194,11 +182,7 @@ function createChild(parent, child) {
 }
 
 function theseAreClasses(target){
-  if (inString(target, ' ')) {
-    return true;
-  } else {
-    return false;
-  }
+  return inString(target, ' ')
 }
 
 function loadJavaScript(filename){
